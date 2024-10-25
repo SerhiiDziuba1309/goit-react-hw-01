@@ -1,6 +1,7 @@
 import React from "react";
 import Profile from "./Profile/Profile.jsx";
 import userData from "../userData.json";
+import FriendList from "./FriendList/FriendList.jsx";
 
 const App = () => {
   return (
@@ -13,5 +14,5 @@ const App = () => {
     />
   );
 };
-
+<FriendList />;
 export default App;
